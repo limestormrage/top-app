@@ -24,6 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "eslint": "^8.15.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "stylelint": "^14.8.2",
     "stylelint-config-standard": "^25.0.0",
     "stylelint-order": "^5.0.0",

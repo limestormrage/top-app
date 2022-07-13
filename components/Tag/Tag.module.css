@@ -10,12 +10,14 @@
 
 .small {
   padding: 5px 12px;
+
   font-size: 12px;
   line-height: 12px;
 }
 
 .medium {
   padding: 5px 12px;
+
   font-size: 14px;
   line-height: 14px;
 }
@@ -47,7 +49,7 @@
 
 .primary {
   color: var(--primary);
-  background: none;
 
   border: 1px solid var(--primary);
+  background: none;
 }
