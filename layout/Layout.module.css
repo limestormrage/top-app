@@ -4,6 +4,7 @@
   min-height: 100vh;
   grid-template-columns: auto 230px minmax(230px, 1200px) auto;
   grid-template-rows: min-content 1fr min-content;
+  gap: 0 30px;
   grid-template-areas:
     ". header header ."
     ". sidebar main ."
