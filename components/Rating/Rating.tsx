@@ -49,10 +49,10 @@ export const Rating = ({rating, isEditable, className, setRating, ...props}: Rat
     };
 
     const handleKey = (e: KeyboardEvent, i: number) => {
-        if (e.code !== 'Space' && e.code !== 'Enter' || !setRating) {
+        if (!['Space', 'Enter'].includes(e.code) || !setRating) {
             return;
         }
-
+        
         return setRating(i);
     };
     
