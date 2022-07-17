@@ -6,6 +6,6 @@
   margin-right: 5px;
 }
 
-.star:last-child {
-  margin: 0;
+.editable {
+  cursor: pointer;
 }
